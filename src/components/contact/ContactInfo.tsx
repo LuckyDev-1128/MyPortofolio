@@ -7,14 +7,14 @@ const ContactInfo = () => {
     {
       icon: <Mail className="h-5 w-5 text-brand-purple" />,
       title: "Email",
-      details: "bsky54424@gmail.com",
-      link: "mailto:bsky54424@gmail.com",
+      details: "ninx.work@gmail.com",
+      link: "mailto:ninx.work@gmail.com",
     },
     {
       icon: <MapPin className="h-5 w-5 text-brand-purple" />,
       title: "Location",
-      details: "Ho Chi Minh City, Vietnam",
-      link: "https://maps.google.com/?q=Ho Chi Minh City",
+      details: "Pampanga, Philippines",
+      link: "https://maps.google.com/?q=Pampanga",
     },
   ];
 
@@ -22,7 +22,7 @@ const ContactInfo = () => {
     {
       icon: <Github className="h-5 w-5" />,
       name: "GitHub",
-      url: "https://github.com/bluesky-520/",
+      url: "https://github.com/webboxesdeveloper/",
     },
     // {
     //   icon: <Linkedin className="h-5 w-5" />,

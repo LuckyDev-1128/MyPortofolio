@@ -15,32 +15,34 @@ const Academics = () => {
   const education = [
     {
       id: 1,
-      institution: "Hoa Sen University",
+      institution: "Pampanga State University",
       degree: "Bachelor of Technology (B.Tech)",
       field: "Software Engineering – Specialization in Artificial Intelligence",
-      duration: "2013 - 2017",
-      location: "Ho Chi Minh City",
-      cgpa: "8.9",
+      duration: "2018 - 2022",
+      location: "Pampanga, Philippines",
+      cgpa: "9.1",
       details: [
         "Specializing in Artificial Intelligence and Big Data",
         "Completed core courses including Data Structures, Algorithms, and Cloud Computing",
-        "Actively contributing to AI-related research and development projects"
-      ]
-    },
-    {
-      id: 2,
-      institution: "Saigon Technology College",
-      degree: "Diploma of College Studies (DEC)",
-      field: "Science Program – Computers and Mathematics Profile",
-      duration: "2012 - 2013",
-      location: "Ho Chi Minh City",
-      cgpa: "8.5",
-      details: [
-        "Major subjects: Physics, Chemistry, Calculus, Computer Science",
+        "Actively contributing to AI-related research and development projects",
         "Gained solid foundations in logic, algorithms, and programming",
         "Participated in coding competitions and academic clubs"
       ]
-    }
+    },
+    // {
+    //   id: 2,
+    //   institution: "Saigon Technology College",
+    //   degree: "Diploma of College Studies (DEC)",
+    //   field: "Science Program – Computers and Mathematics Profile",
+    //   duration: "2012 - 2013",
+    //   location: "Ho Chi Minh City",
+    //   cgpa: "8.5",
+    //   details: [
+    //     "Major subjects: Physics, Chemistry, Calculus, Computer Science",
+    //     "Gained solid foundations in logic, algorithms, and programming",
+    //     "Participated in coding competitions and academic clubs"
+    //   ]
+    // }
   ];
 
   const certifications = [

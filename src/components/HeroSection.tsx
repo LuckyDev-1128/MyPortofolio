@@ -121,7 +121,7 @@ const HeroSection = () => {
                   backgroundSize: "200% 200%"
                 }}
               >
-                Tan Wei Ling
+                Juanpaulo Umali
               </motion.span>
             </motion.h1>
             
@@ -143,7 +143,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Versatile developer with 7+ years of experience building high-performance frontend applications and AI-powered automation systems. Specialized in React, Next.js, GSAP, WebGL/Three.js to create immersive, animation-rich, and SEO-optimized web experiences. Proven track record in delivering interactive dashboards, 3D configurators, and WordPress solutions while ensuring Core Web Vitals and accessibility compliance.
+              Versatile developer with 5+ years of experience building high-performance frontend applications and AI-powered automation systems. Specialized in React, Next.js, GSAP, WebGL/Three.js to create immersive, animation-rich, and SEO-optimized web experiences. Proven track record in delivering interactive dashboards, 3D configurators, and WordPress solutions while ensuring Core Web Vitals and accessibility compliance.
             </motion.p>
             
             <motion.div 

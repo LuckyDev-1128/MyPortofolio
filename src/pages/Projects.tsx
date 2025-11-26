@@ -12,7 +12,8 @@ import {
   Search,
   Code,
   Brain,
-  BarChart
+  BarChart,
+  ChartCandlestick
 } from "lucide-react";
 
 const Projects = () => {
@@ -92,9 +93,17 @@ const Projects = () => {
       title: "Smart Home Dashboard",
       description: "A dashboard for monitoring and controlling smart home devices.",
       image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&w=800&q=80",
-      tags: ["C", "IoT", "NArdiuno"],
+      tags: ["C", "IoT", "NArdiuno", "Raspberry Pi"],
       // code: "https://github.com/wildbear01/Ardiuno",
       category: "iot"
+    },
+    {
+      id: 9,
+      title: "Trading Bot",
+      description: "A smart trading bot dashboard for monitoring market trends, executing automated trades, and managing multiple trading strategies.",
+      image: "https://images.unsplash.com/photo-1629339942248-45d4b10c8c2f?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["Python", "Trading Bot", "Algorithmic Trading", "Finance", "Crypto"],
+      category: "trading"
     }
   ];
 
@@ -112,6 +121,8 @@ const Projects = () => {
         return Brain;
       case "data":
         return BarChart;
+      case "trading":
+        return ChartCandlestick;
       default:
         return Code;
     }
@@ -130,7 +141,8 @@ const Projects = () => {
     { id: "web", name: "Web Development" },
     { id: "ai", name: "AI & ML" },
     { id: "blockchain", name: "Blockchain" },
-    { id: "iot", name: "IoT" }
+    { id: "iot", name: "IoT" },
+    { id: "trading", name: "Trading" }
   ];
 
   return (

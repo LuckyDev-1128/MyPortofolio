@@ -23,7 +23,7 @@ const About = () => {
     { name: "AI Integration", level: "Intermediate" },
     { name: "Make.com", level: "Intermediate" },
     { name: "n8n", level: "Advanced" },
-    { name: "Zapier", level: "Intermediate" },
+    { name: "GAN", level: "Intermediate" },
     { name: "ChatGPT", level: "Intermediate" },
     { name: "PostgreSQL", level: "Advanced" },
     { name: "Supabase", level: "Intermediate" },
@@ -89,7 +89,7 @@ const About = () => {
                   I'm <motion.span 
                     className="text-brand-purple font-semibold"
                     whileHover={{ color: "#8B5CF6" }}
-                  >Tan Wei Ling</motion.span>, a seasoned full-stack developer and freelance engineer with over 8 years of experience building smart, scalable, and impactful software solutions.
+                  >Juanpaulo Umali</motion.span>, a seasoned full-stack developer and freelance engineer with over 8 years of experience building smart, scalable, and impactful software solutions.
                 </p>
                 <p>
                   My journey began with a passion for creating things that solve real-world problems. Over the years, I’ve mastered a wide range of technologies, from building modern web applications using React, Next.js, Django, and FastAPI, to integrating intelligent systems with AI and automation tools like Zapier, Make, and n8n.
